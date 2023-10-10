@@ -1,0 +1,619 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color:rgb(232, 232, 232);
+}
+
+header {
+    font-family: sans-serif;
+    & h1 {
+        font-size: 3rem;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+        padding: 20px
+    }
+
+    & p {
+        text-align: center;
+    }
+    & .header-opt {
+        margin: 30px;
+        display: flex;
+        place-content: center;
+        background-color: lightblue;
+        border-radius: 10px;
+        align-items: center;
+        text-align: center;
+        word-wrap: normal;
+        flex-wrap:wrap;
+    }
+
+    & .banner {
+        padding: 20px;
+        width: 200px;
+    }
+    & .bi1 {
+        background-color: darkblue;
+        padding: 15px;
+        color: white;
+        border-radius: 10px;
+    }
+
+}
+
+main {
+    font-size: small;
+    font-family: sans-serif;
+    display: flex;
+    word-wrap: normal;
+    flex-wrap: wrap;
+    place-content: center;
+    & .iteam1 {
+        background-color: white;
+        object-fit: contain;
+        /* align-items: center; */
+        width: 314.25px;
+        margin: 30px;
+        border-radius: 10px;
+        display: flex;
+        word-wrap: normal;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        & .title {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .description {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .img {
+            border-radius: 10px;
+            width: 314.25px;
+        }
+        & .level { 
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-between; 
+            
+            & .lel {
+                border-radius: 10px;
+                padding: 5px;
+                text-transform: capitalize;
+                background-color: #d7d1f0;
+            }
+            & .checked-heart{
+                padding:5px;
+                color: rgb(186, 69, 69);
+            }
+        }
+        & .ratting {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            & .checked-star {
+                color: gold;
+            }
+        }
+        & .dot {
+            text-align: center;
+        }
+        & .time{
+            
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        & .fa {
+            background-color: white;
+            color: black;
+        }
+    }
+    & .iteam2 {
+        background-color: white;
+        object-fit: contain;
+        /* align-items: center; */
+        width: 314.25px;
+        margin: 30px;
+        border-radius: 10px;
+        display: flex;
+        word-wrap: normal;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        & .title {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .description {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .img {
+            border-radius: 10px;
+            width: 314.25px;
+        }
+        & .level { 
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-between; 
+            
+            & .lel {
+                border-radius: 10px;
+                padding: 5px;
+                text-transform: capitalize;
+                background-color: #d7d1f0;
+            }
+            & .checked-heart{
+                padding:5px;
+                color: rgb(186, 69, 69);
+            }
+        }
+        & .ratting {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            & .checked-star {
+                color: gold;
+            }
+        }
+        & .dot {
+            text-align: center;
+        }
+        & .time{
+            
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        & .fa {
+            background-color: white;
+            color: black;
+        }
+    }
+    & .iteam3 {
+        background-color: white;
+        object-fit: contain;
+        /* align-items: center; */
+        width: 314.25px;
+        margin: 30px;
+        border-radius: 10px;
+        display: flex;
+        word-wrap: normal;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        & .title {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .description {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .img {
+            border-radius: 10px;
+            width: 314.25px;
+        }
+        & .level { 
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-between; 
+            
+            & .lel {
+                border-radius: 10px;
+                padding: 5px;
+                text-transform: capitalize;
+                background-color: #d7d1f0;
+            }
+            & .checked-heart{
+                padding:5px;
+                color: rgb(186, 69, 69);
+            }
+        }
+        & .ratting {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            & .checked-star {
+                color: gold;
+            }
+        }
+        & .dot {
+            text-align: center;
+        }
+        & .time{
+            
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        & .fa {
+            background-color: white;
+            color: black;
+        }
+    }
+    & .iteam4 {
+        background-color: white;
+        object-fit: contain;
+        /* align-items: center; */
+        width: 314.25px;
+        margin: 30px;
+        border-radius: 10px;
+        display: flex;
+        word-wrap: normal;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        & .title {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .description {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .img {
+            border-radius: 10px;
+            width: 314.25px;
+        }
+        & .level { 
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-between; 
+            
+            & .lel {
+                border-radius: 10px;
+                padding: 5px;
+                text-transform: capitalize;
+                background-color: #d7d1f0;
+            }
+            & .checked-heart{
+                padding:5px;
+                color: rgb(186, 69, 69);
+            }
+        }
+        & .ratting {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            & .checked-star {
+                color: gold;
+            }
+        }
+        & .dot {
+            text-align: center;
+        }
+        & .time{
+            
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        & .fa {
+            background-color: white;
+            color: black;
+        }
+    }
+    & .iteam5 {
+        background-color: white;
+        object-fit: contain;
+        /* align-items: center; */
+        width: 314.25px;
+        margin: 30px;
+        border-radius: 10px;
+        display: flex;
+        word-wrap: normal;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        & .title {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .description {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .img {
+            border-radius: 10px;
+            width: 314.25px;
+        }
+        & .level { 
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-between; 
+            
+            & .lel {
+                border-radius: 10px;
+                padding: 5px;
+                text-transform: capitalize;
+                background-color: #d7d1f0;
+            }
+            & .checked-heart{
+                padding:5px;
+                color: rgb(186, 69, 69);
+            }
+        }
+        & .ratting {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            & .checked-star {
+                color: gold;
+            }
+        }
+        & .dot {
+            text-align: center;
+        }
+        & .time{
+            
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        & .fa {
+            background-color: white;
+            color: black;
+        }
+    }
+    & .iteam6 {
+        background-color: white;
+        object-fit: contain;
+        /* align-items: center; */
+        width: 314.25px;
+        margin: 30px;
+        border-radius: 10px;
+        display: flex;
+        word-wrap: normal;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        & .title {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .description {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .img {
+            border-radius: 10px;
+            width: 314.25px;
+        }
+        & .level { 
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-between; 
+            
+            & .lel {
+                border-radius: 10px;
+                padding: 5px;
+                text-transform: capitalize;
+                background-color: #d7d1f0;
+            }
+            & .checked-heart{
+                padding:5px;
+                color: rgb(186, 69, 69);
+            }
+        }
+        & .ratting {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            & .checked-star {
+                color: gold;
+            }
+        }
+        & .dot {
+            text-align: center;
+        }
+        & .time{
+            
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        & .fa {
+            background-color: white;
+            color: black;
+        }
+    }
+    & .iteam7 {
+        background-color: white;
+        object-fit: contain;
+        /* align-items: center; */
+        width: 314.25px;
+        margin: 30px;
+        border-radius: 10px;
+        display: flex;
+        word-wrap: normal;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        & .title {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .description {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .img {
+            border-radius: 10px;
+            width: 314.25px;
+        }
+        & .level { 
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-between; 
+            
+            & .lel {
+                border-radius: 10px;
+                padding: 5px;
+                text-transform: capitalize;
+                background-color: #d7d1f0;
+            }
+            & .checked-heart{
+                padding:5px;
+                color: rgb(186, 69, 69);
+            }
+        }
+        & .ratting {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            & .checked-star {
+                color: gold;
+            }
+        }
+        & .dot {
+            text-align: center;
+        }
+        & .time{
+            
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        & .fa {
+            background-color: white;
+            color: black;
+        }
+    }
+    & .iteam8 {
+        background-color: white;
+        object-fit: contain;
+        /* align-items: center; */
+        width: 314.25px;
+        margin: 30px;
+        border-radius: 10px;
+        display: flex;
+        word-wrap: normal;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        & .title {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .description {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        & .img {
+            border-radius: 10px;
+            width: 314.25px;
+        }
+        & .level { 
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: space-between; 
+            
+            & .lel {
+                border-radius: 10px;
+                padding: 5px;
+                text-transform: capitalize;
+                background-color: #d7d1f0;
+            }
+            & .checked-heart{
+                padding:5px;
+                color: rgb(186, 69, 69);
+            }
+        }
+        & .ratting {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            & .checked-star {
+                color: gold;
+            }
+        }
+        & .dot {
+            text-align: center;
+        }
+        & .time{
+            
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        & .fa {
+            background-color: white;
+            color: black;
+        }
+    }
+    
+    
+}
